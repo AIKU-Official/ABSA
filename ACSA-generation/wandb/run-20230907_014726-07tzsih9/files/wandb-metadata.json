@@ -1,0 +1,50 @@
+{
+    "os": "Windows-10-10.0.19045-SP0",
+    "python": "3.9.16",
+    "heartbeatAt": "2023-09-06T16:47:28.677922",
+    "startedAt": "2023-09-06T16:47:26.325480",
+    "docker": null,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "C:\\Users\\bestm\\Desktop\\Dev\\AIKU\\ABSA\\ACSA-generation\\train_MAMS_sentiment.py",
+    "codePath": "train_MAMS_sentiment.py",
+    "git": {
+        "remote": "https://github.com/lgw863/ACSA-generation.git",
+        "commit": "8516ccb14f10c578c0d096cf05621f7df0a00442"
+    },
+    "email": "hwsmin920@gmail.com",
+    "root": "C:/Users/bestm/Desktop/Dev/AIKU/ABSA/ACSA-generation",
+    "host": "DESKTOP-A845400",
+    "username": "bestm",
+    "executable": "C:\\ProgramData\\Anaconda3\\envs\\pytorch\\python.exe",
+    "cpu_count": 6,
+    "cpu_count_logical": 12,
+    "cpu_freq": {
+        "current": 3501.0,
+        "min": 0.0,
+        "max": 3501.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 3501.0,
+            "min": 0.0,
+            "max": 3501.0
+        }
+    ],
+    "disk": {
+        "total": 511.426944732666,
+        "used": 205.66497802734375
+    },
+    "gpu": "NVIDIA GeForce RTX 3060",
+    "gpu_count": 1,
+    "gpu_devices": [
+        {
+            "name": "NVIDIA GeForce RTX 3060",
+            "memory_total": 12884901888
+        }
+    ],
+    "memory": {
+        "total": 15.886856079101562
+    }
+}

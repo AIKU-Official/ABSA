@@ -1,0 +1,18 @@
+You passed along `num_labels=3` with an incompatible id to label map: {'0': 'NEGATIVE', '1': 'POSITIVE'}. The number of labels wil be overwritten to 2.
+You passed along `num_labels=3` with an incompatible id to label map: {'0': 'NEGATIVE', '1': 'POSITIVE'}. The number of labels wil be overwritten to 2.
+  0%|                                                                                                                                                         | 0/75083 [00:00<?, ?it/s]Traceback (most recent call last):
+  File "C:\Users\bestm\Desktop\Dev\AIKU\ABSA\ACSA-generation\train_MAMS_sentiment.py", line 64, in <module>
+    best_accuracy = model.train_model(train_df, best_accuracy)
+  File "C:\Users\bestm\Desktop\Dev\AIKU\ABSA\ACSA-generation\seq2seq_model_M.py", line 279, in train_model
+    train_dataset = self.load_and_cache_examples(train_data, verbose=verbose)
+  File "C:\Users\bestm\Desktop\Dev\AIKU\ABSA\ACSA-generation\seq2seq_model_M.py", line 926, in load_and_cache_examples
+    return SimpleSummarizationDataset(encoder_tokenizer, self.args, data, mode)
+  File "C:\Users\bestm\AppData\Roaming\Python\Python39\site-packages\simpletransformers\seq2seq\seq2seq_utils.py", line 425, in __init__
+    self.examples = [
+  File "C:\Users\bestm\AppData\Roaming\Python\Python39\site-packages\simpletransformers\seq2seq\seq2seq_utils.py", line 426, in <listcomp>
+    preprocess_fn(d) for d in tqdm(data, disable=args.silent)
+  File "C:\Users\bestm\AppData\Roaming\Python\Python39\site-packages\simpletransformers\seq2seq\seq2seq_utils.py", line 321, in preprocess_data_bart
+    input_ids = tokenizer.batch_encode_plus(
+  File "C:\ProgramData\Anaconda3\envs\pytorch\lib\site-packages\torch\nn\modules\module.py", line 1269, in __getattr__
+    raise AttributeError("'{}' object has no attribute '{}'".format(
+AttributeError: 'BartForConditionalGeneration' object has no attribute 'batch_encode_plus'
