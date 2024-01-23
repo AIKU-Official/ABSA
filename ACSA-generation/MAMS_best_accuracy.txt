@@ -1,8 +1,0 @@
-batch: 16 accumulation_steps: 1 lr: 4e-05 epochs: 15 epoch: 1 val_accuracy: 0.6745495495495496 test_accuracy: 0.6881243063263041
-batch: 16 accumulation_steps: 1 lr: 4e-05 epochs: 15 epoch: 2 val_accuracy: 0.8006756756756757 test_accuracy: 0.8057713651498335
-batch: 16 accumulation_steps: 1 lr: 4e-05 epochs: 15 epoch: 3 val_accuracy: 0.8243243243243243 test_accuracy: 0.8135405105438401
-batch: 16 accumulation_steps: 1 lr: 4e-05 epochs: 15 epoch: 4 val_accuracy: 0.8445945945945946 test_accuracy: 0.8201997780244173
-batch: 16 accumulation_steps: 1 lr: 4e-05 epochs: 15 epoch: 1 val_accuracy: 0.6745495495495496 test_accuracy: 0.6881243063263041
-batch: 16 accumulation_steps: 1 lr: 4e-05 epochs: 15 epoch: 2 val_accuracy: 0.8006756756756757 test_accuracy: 0.8057713651498335
-batch: 16 accumulation_steps: 1 lr: 4e-05 epochs: 15 epoch: 1 val_accuracy: 0.9733679766157843 test_accuracy: 0.9733679766157843
-batch: 16 accumulation_steps: 1 lr: 4e-05 epochs: 15 epoch: 1 val_accuracy: 0.9733679766157843 test_accuracy: (0.9733679766157843, 0.32445599220526145, 0.3333333333333333, 0.32883475971033577)
