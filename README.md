@@ -1,5 +1,16 @@
 # ABSA
-AIKU 2023-Summer Project: Aspect Based Sentimental Analysis
+AIKU 2023-Summer Project: Aspect Based Sentimental Analysi
+
+## Team
+
+| 팀원                            | 역할                                       |
+| ----------------------------- | ---------------------------------------- |
+| [김민성](github.com/mingsung-k)* | Joint task(Add-one-dim), SC task         |
+| [황상민](github.com/bbang3)      | Seq2Seq Approach, Data augmentation (Backtranslation) |
+| [오원준](github.com/owj0421)     | Multi-label Classifier (CD), SC task     |
+| 유예빈                           | Data Augmentation (KorEDA)               |
+
+
 
 ## Introduction
 
@@ -144,8 +155,6 @@ AIKU 2023-Summer Project: Aspect Based Sentimental Analysis
      - CD task는 같은 label을 가진 데이터셋을 찾는 것이 불가능
 
 ## Result
-
-------
 
 ### Score
 
