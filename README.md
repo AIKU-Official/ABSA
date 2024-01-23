@@ -3,12 +3,12 @@ AIKU 2023-Summer Project: Aspect Based Sentimental Analysi
 
 ## Team
 
-| 팀원                            | 역할                                       |
-| ----------------------------- | ---------------------------------------- |
-| [김민성](github.com/mingsung-k)* | Joint task(Add-one-dim), Sentiment Classification task |
-| [황상민](github.com/bbang3)      | Seq2Seq Approach, Data augmentation (Backtranslation) |
-| [오원준](github.com/owj0421)     | Multi-label Classifier (Category Detection), Sentiment Classification task |
-| 유예빈                           | Data Augmentation (KorEDA)               |
+| 팀원                                    | 역할                                       |
+| ------------------------------------- | ---------------------------------------- |
+| [김민성](https://github.com/mingsung-k)* | Joint task(Add-one-dim), Sentiment Classification task |
+| [황상민](https://github.com/bbang3)      | Seq2Seq Approach, Data augmentation (Backtranslation) |
+| [오원준](https://github.com/owj0421)     | Multi-label Classifier (Category Detection), Sentiment Classification task |
+| 유예빈                                   | Data Augmentation (KorEDA)               |
 
 
 
