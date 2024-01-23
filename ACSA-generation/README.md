@@ -8,3 +8,9 @@
 - 한국어 BART 모델로 변경 (kobart-base-v2)
 - 기타 데이터셋 파싱 및 경로 변경
 
+
+To run our code, please install all the dependency packages by using the following command:
+
+	pip install -r requirements.txt
+You can directly run our method:
+	python train_MAMS_sentiment.py
